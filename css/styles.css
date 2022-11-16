@@ -1,0 +1,188 @@
+/* Палітра макету*/
+/* Основний колір тексту #212121 */
+/* Другорядний колір тексту #757575 */
+/* Чорний #000000 */
+/* Колір акцентів блакитний #2196F3  */
+/* Білий #FFFFFF */
+/* Колір основного фону #F5F5F5 */
+/* Колір другорядного фону #F5F4FA */
+/* Другорядний колір тексту footer rgba(255, 255, 255, 0.6) */
+/* Колір фону footer #2F303A */
+
+/* Перемінні */
+:root {
+    --main-color-text: #212121;
+    --secondary-text-color:#757575; 
+    --black: #000000;
+    --accent-color: #2196F3;
+    --white: #FFFFFF;
+    --main-fone: #F5F5F5;
+    --secondery-fone: #F5F4FA;
+    --fone-footer: #2F303A;
+    --secondary-text-footer: rgba(255, 255, 255, 0.6);
+
+}
+/* Характерні властивості body */
+.page {
+    background-color: var(--main-fone);
+    color:var(--main-color-text) ;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    }
+.list {
+    list-style: none;
+}
+/* Характерні властивості для всіх секцій */
+.section-title {
+    color: var(--main-color-text) ;
+    
+    text-align: center;
+}
+.description {
+    color: var(--secondary-text-color) ;
+}
+/* Кнопки */
+.button {
+    color: var(--main-color-text);
+    background-color: var(--secondery-fone);
+    
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63; 
+}
+.button.primery:hover,
+.button.primery:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+/* logo */
+.web, .studio {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.web {
+    color: var(--accent-color);
+}
+.studio {
+    color: var(--black);
+}
+.footer {
+    color: var(--white);
+}
+/* Шапка сайту */
+.hat {
+    background-color: var(--white) ;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    }
+
+.page-nav .link {
+    color: var(--main-color-text);
+
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    }
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: var(--accent-color);
+}
+.header {
+    letter-spacing: 0.02em;
+}
+.contact-link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    }
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+.page-nav .link.current {
+    color: var(--accent-color);
+}
+/* Герой */
+.hero {
+    background-color: var(--fone-footer);
+}
+.hero-title { 
+    color: var(--white);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+/* Цінності */
+.values {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.values .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Наша команда */
+.our-team {
+    background-color: var(--secondery-fone);
+}
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team .description {
+    font-weight: 400;
+    }
+
+/* Footer */
+.basement {
+    background-color: var(--fone-footer);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   }
+
+.address {
+    font-style: normal;
+}
+.contact-footer-address {
+    color: var(--white);
+
+    text-decoration: none;
+}
+.footer {
+    color: var(--secondary-text-footer);
+ }
+
+ /* Проекти */
+ .project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+ }
+.direction {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
